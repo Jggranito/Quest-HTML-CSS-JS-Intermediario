@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest 2</title>
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+    <main>
+        <div class="mensagem">
+            <h1>FICOU COM DÚVIDA?<br> NOS MANDE UMA MENSAGEM!</h1>
+            <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+        </div>
+
+        <div class="content">
+            <form action="#" method="get">
+                <div class="campo-formulario">
+                    <input class="input-campo" type="text" name="nome" id="nome" placeholder="Nome completo *">
+                    <span class="msg-invalido">campo invalido</span>
+                </div>
+                <div class="campo-formulario">
+                    <input class="input-campo" type="email" name="email" id="email" placeholder="Email *">
+                    <span class="msg-invalido">campo invalido</span>
+                </div>
+                <div class="campo-formulario">
+                    <input class="input-campo" type="tel" name="telefone" id="telefone" placeholder="Telefone *" maxlength="11">
+                    <span class="msg-invalido">campo invalido</span>
+                </div>
+                <div class="campo-formulario">
+                    <label for="mensagem"></label>
+                    <textarea class="input-campo" name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Mensagem *"></textarea>
+                    <!-- <input class="input-campo" type="text" name="mensagem" id="mensagem" placeholder="Mensagem *"> -->
+                    <span class="msg-invalido">campo invalido</span>
+                </div>
+            </form>
+            <p>* campos obrigatórios</p>
+            <button class="enviar" onclick=validaFormulario() >Enviar</button>
+        </div>
+    </main>
+
+    <script src="src/js/validaFormulario.js"></script>
+</body>
+</html>

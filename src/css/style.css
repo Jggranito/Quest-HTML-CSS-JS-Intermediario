@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+main{
+    font-family: 'Roboto', sans-serif;
+    background: url(../imagens/bg-repeat.jpg) repeat-x;
+    background-size: contain;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 50px;
+    position: relative;
+    gap: 70px;
+}
+
+.mensagem {
+    color: #fff;
+    width: 300px;
+}
+.mensagem h1 {
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 11px;
+}
+
+.mensagem p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.content {
+    background-color: #fff;
+    width: 340px;
+    height: 378px;
+    padding: 5px 20px 20px;
+}
+
+.content .input-campo {
+    margin-top: 15px;
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    padding: 10px 8px;
+}
+
+.content .campo-formulario:last-child .input-campo{
+    height: 100px;
+    resize: none;
+}
+
+.content p {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 10px 0 20px;
+    margin-left: -10px;
+}
+
+.content .enviar {
+    width: 300px;
+    height: 40px;
+    background-color: #3CCC87;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+    font-size: 15px;
+    color: #fff;
+}
+
+.content .msg-invalido {
+    font-size: 8px;
+    font-weight: 400;
+    color: #F52E2E;
+    position: absolute;
+    margin-left: 2px;
+    display: none;
+}
+
+.content .campo-invalido .input-campo{
+    border: 1px solid #F52E2E;
+}
+
+.content .campo-valido .input-campo{
+    border: 1px solid #00C22B;
+}
+
+.content .campo-invalido .msg-invalido {
+    display: block;
+}
