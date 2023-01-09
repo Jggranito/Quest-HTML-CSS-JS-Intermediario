@@ -29,7 +29,7 @@ imagem em anexo na aula.
 
 - Desktop - ![](./screenshot/Desktop-1280x800.png) 
 
-![](./screenshot/Desktop-2-1280x800.png)
+![](./screenshot/Desktop-2-1280-800.png)
 
 - Mobile  -
 
