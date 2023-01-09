@@ -1,9 +1,5 @@
 const inputCampo = document.querySelectorAll(".campo-formulario")
 
-// const nome = inputCampo.
-
-// console.log(inputCampo[1])
-
 function validaFormulario() {
     inputCampo.forEach(function (input) {
         if (input.childNodes[1].nodeName === "INPUT") {

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
 
-main{
+main {
     font-family: 'Roboto', sans-serif;
     background: url(../imagens/bg-repeat.jpg) repeat-x;
     background-size: contain;
@@ -9,14 +9,14 @@ main{
     align-items: center;
     justify-content: center;
     padding: 12px 50px;
-    position: relative;
     gap: 70px;
 }
 
 .mensagem {
-    color: #fff;
+    color: #ffffff;
     width: 300px;
 }
+
 .mensagem h1 {
     font-size: 20px;
     font-weight: 900;
@@ -29,7 +29,7 @@ main{
 }
 
 .content {
-    background-color: #fff;
+    background-color: #ffffff;
     width: 340px;
     height: 378px;
     padding: 5px 20px 20px;
@@ -44,7 +44,7 @@ main{
     padding: 10px 8px;
 }
 
-.content .campo-formulario:last-child .input-campo{
+.content .campo-formulario:last-child .input-campo {
     height: 100px;
     resize: none;
 }
@@ -64,7 +64,7 @@ main{
     border: none;
     font-weight: 700;
     font-size: 15px;
-    color: #fff;
+    color: #ffffff;
 }
 
 .content .msg-invalido {
@@ -76,11 +76,11 @@ main{
     display: none;
 }
 
-.content .campo-invalido .input-campo{
+.content .campo-invalido .input-campo {
     border: 1px solid #F52E2E;
 }
 
-.content .campo-valido .input-campo{
+.content .campo-valido .input-campo {
     border: 1px solid #00C22B;
 }
 
